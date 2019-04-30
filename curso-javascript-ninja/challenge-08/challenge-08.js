@@ -21,13 +21,14 @@ return console.log('A soma de ' + value1 + ' e ' + value2 + ' é igual a ' + sum
 Mostre no console o nome da função criada acima, com a frase:
 "O nome da função que faz a soma é [NOME DA FUNÇÃO]."
 */
-console.log
-
+console.log('O nome da função que faz a soma é ', sum.name);
 /*
 Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
-// ?
+function showName() {
+  return 'Ezequiel Brilhante'
+}
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
