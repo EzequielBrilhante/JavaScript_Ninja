@@ -135,15 +135,17 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 /*
 Faça a `pessoa` fazer 3 aniversários.
 */
-?
+pessoa.fazerAniversario()
+pessoa.fazerAniversario()
+pessoa.fazerAniversario()
 
 /*
 Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-?
-
+//pessoa.idade
+28
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
