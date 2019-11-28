@@ -4,7 +4,8 @@ para começar o desafio.
 Declare uma variável chamada `championship` que receberá o nome do campeonato,
 e imprima o nome desse campeonato no console.
 */
-// ?
+var championship = "Campeonato Carioca";
+console.log(championship);
 
 /*
 Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
@@ -12,9 +13,7 @@ Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
 estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
-// ?
-
-console.log( 'Times que estão participando do campeonato:', teams );
+var teams = ["Flamengo", "Botafogo", "Vasco", "Fluminense", "Bangu"];
 
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
@@ -32,7 +31,9 @@ Crie uma função chamada `showTeamPosition` com as seguintes características:
     - Se não houver time para a posição passada, deve retornar a mensagem:
     "Não temos a informação do time que está nessa posição."
 */
-// ?
+function showTeamPosition(num = 1) {
+    return `O time que esta na ${num}º lugar é o ${teams[0]}`;
+}
 
 /*
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
